@@ -16,16 +16,16 @@ body {
     transition: 4s;
   }
   
-  .birthdayCard:hover {
+  .birthdayCard:hover, .birthdayCard.open {
       transform: perspective(2500px) rotate(5deg);
       box-shadow: inset 100px 20px 100px rgba(0,0,0,.15), 0 10px 100px rgba(0,0,0,0.3);
   }
   
-  .birthdayCard:hover .cardFront {
+  .birthdayCard:hover .cardFront, .birthdayCard.open .cardFront {
     transform: rotateY(-160deg); 
   }
   
-  .birthdayCard:hover .front-text {
+  .birthdayCard:hover .front-text, .birthdayCard.open .front-text {
     display: none;
   }
   
