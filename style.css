@@ -226,26 +226,30 @@ body {
   
   .inside-text {
     position: relative;
-    top:-160px;
-    transform: scale(0.7);
-  }
-  
-  .wishes .wishes {
-    position: relative;
-    top: -100px;
-    margin: 25px;
-    text-align: center; /* Adiciona esta linha aqui */
+    top: 0;                   
+    transform: scale(0.9);    
+    text-align: center;
+    margin: 0 auto;
 }
   
-  p {
-    p {
+  .wishes {
+    position: relative;
+    top: 0;                  
+    margin: 10px auto;     
+    padding: 0 15px;         
+    text-align: center;
+}
+  
+p {
     font-family: 'Caveat', cursive;
-    font-size: 22px;         /* Ajusta o tamanho da letra se achares necessário */
-    text-align: center;       /* Força o alinhamento no centro perfeito */
+    font-size: 16px;         
+    line-height: 1.4;        
+    text-align: center;
     color: #333;
-    margin: 0 auto;          /* Ajuda a centralizar o bloco do texto */
+    margin: 0;
 }
   
   .name {
-    margin-left:150px;
-  }
+    text-align: center;
+    margin-top: 10px;
+}
