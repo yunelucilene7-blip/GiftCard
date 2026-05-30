@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
 body {
     display: flex;
     align-items: center;
@@ -229,16 +230,21 @@ body {
     transform: scale(0.7);
   }
   
-  .wishes {
+  .wishes .wishes {
     position: relative;
-    top:-100px;
+    top: -100px;
     margin: 25px;
-  }
+    text-align: center; /* Adiciona esta linha aqui */
+}
   
   p {
-    font-family: 'Brush Script MT';
+    p {
+    font-family: 'Caveat', cursive;
+    font-size: 22px;         /* Ajusta o tamanho da letra se achares necessário */
+    text-align: center;       /* Força o alinhamento no centro perfeito */
     color: #333;
-  }
+    margin: 0 auto;          /* Ajuda a centralizar o bloco do texto */
+}
   
   .name {
     margin-left:150px;
